@@ -2,8 +2,8 @@
 using System.Text;
 
 ServiceClient serviceClient;
-string connectionString = "HostName=YourIoTHubNameHN.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=FglCwvqHJlDhCQcoQbiVsHt9fM2Ed7f9owwBFXat/1U=";
-string targetDevice = "TC74";
+string connectionString = "HostName=IoT-hub-HN-2023.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=fp1DS3bTW5QEzrOYjRpS/B8rHGVF+E7HzAIoTN31gU0=";
+string targetDevice = "rpi-hn-home";
 
 async Task SendCloudToDeviceMessageAsync()
 {
